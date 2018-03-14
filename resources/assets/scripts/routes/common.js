@@ -1,4 +1,4 @@
-import * as Cookies from "js-cookie";
+//import * as Cookies from "js-cookie";
 export default {
   init() {
     // JavaScript to be fired on all pages
@@ -8,7 +8,7 @@ export default {
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
-       Cookies.set('name', 'value');
+     //  Cookies.set('name', 'value');
     
   },
 };
